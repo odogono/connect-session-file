@@ -1,6 +1,6 @@
 {
   "name": "connect-session-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File Session Store for Connect Middleware",
   "author": "Alexander Veenendaal <alex@opendoorgonorth.com> (http://github.com/odogono/)",
   "contributors": [
