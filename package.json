@@ -8,7 +8,6 @@
     "André König <> (https://github.com/akoenig)"
   ],
   "bugs": { "web" : "http://github.com/odogono/connect-session-file/issues" },
-  "os": ["darwin", "linux"],
   "engines": {
     "node" : ">=0.8.11"
   },
