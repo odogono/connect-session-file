@@ -17,9 +17,6 @@
     "lib" : "lib"
   },
   "main": "./lib/connect-session-file",
-  "dependencies": {
-    "connect": ">=2.7.3"
-  },
   "repository": {
     "type":"git",
     "url":"http://github.com/odogono/connect-session-file.git"
