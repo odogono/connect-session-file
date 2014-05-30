@@ -18,7 +18,7 @@
   },
   "main": "./lib/connect-session-file",
   "dependencies": {
-    "connect": ">=2.7.3"
+    "connect": ">=2.7.3 < 3.0.0"
   },
   "repository": {
     "type":"git",
