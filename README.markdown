@@ -3,6 +3,7 @@
 
 ## Installation
 
+    $ npm install connect-session-file
 
 ## Options
 
@@ -17,9 +18,10 @@
 
 See example/app.js
 
-With express:
+With express4:
 
-    var FileStore = require('connect-session-file');
+    var session = require('express-session');
+    var FileStore = require('connect-session-file')(session);
 
     app.use(express.session({
         secret: settings.cookie_secret,
@@ -28,6 +30,22 @@ With express:
         })
       }));
 
+With express<4:
+
+    var express = require('express');
+    var FileStore = require('connect-session-file')(express);
+
+    app.use(express.session({
+        secret: settings.cookie_secret,
+        store: new FileSessionStore({
+          db: settings.db
+        })
+      }));
+
+With connect:
+
+    var connect = require('connect');
+    var FileStore = require('connect-session-file')(connect);
 
 ## Tests
 
